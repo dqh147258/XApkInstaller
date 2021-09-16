@@ -11,7 +11,7 @@
     <application android:requestLegacyExternalStorage="true">
 
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name="com.yxf.xapkinstaller.FileProvider"
             android:authorities="${applicationId}.xapk_installer_fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
