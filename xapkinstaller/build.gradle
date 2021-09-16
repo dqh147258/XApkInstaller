@@ -4,7 +4,7 @@ plugins {
 }
 
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.dqh147258'
+group = 'com.github.dqh147258'
 
 android {
     compileSdkVersion 30
@@ -47,8 +47,8 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
 
     implementation "io.reactivex.rxjava2:rxjava:2.2.2"
-    implementation "io.reactivex.rxjava2:rxandroid:2.1.0"
-    implementation "io.reactivex.rxjava2:rxkotlin:2.3.0"
+    //implementation "io.reactivex.rxjava2:rxandroid:2.1.0"
+    //implementation "io.reactivex.rxjava2:rxkotlin:2.3.0"
 
 
 }
