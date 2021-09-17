@@ -5,7 +5,7 @@
 
 ## 使用
 
-## 引用
+### 引用
 ```groovy
 	allprojects {
 		repositories {
