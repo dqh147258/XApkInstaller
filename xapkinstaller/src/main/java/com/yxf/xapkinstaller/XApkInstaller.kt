@@ -260,6 +260,9 @@ class XApkInstaller(private val path: String, sourceContext: Context) {
 
     private fun getXApkInstallTempFolder(packageName: String): File {
         val folder = File(tempFolder, packageName)
+        if (!folder.exists()) {
+            folder.mkdirs()
+        }
         return folder
     }
 
